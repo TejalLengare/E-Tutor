@@ -16,9 +16,7 @@ const About = () => {
     //   enhance your professional skillset, or simply explore the exciting world of programming, 
     //   our tuition service is your gateway to success. Join us today and embark on a
     //   journey of discovery, innovation, and endless possibilities in the world of coding.
-    // "
-
-      
+    // "      
       imgsrc={aboutImg}
       btn="Know More"
       />
