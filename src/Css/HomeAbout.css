@@ -1,0 +1,58 @@
+.mainSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contentBox{
+    width: 40%;
+    padding-left: 1em;
+}
+
+.contentBox h1{
+    font-size: 2.5rem;
+    color: brown;
+    text-align: center;
+}
+
+.contentBox p{
+    font-size: 2rem;
+    padding-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.btnBox{
+    width: 100%;
+    display: flex;
+    justify-content:space-around ;
+    margin-top: 2em;
+}
+
+.btn{
+    border:3px solid transparent;
+    border-radius: 12px;
+    background-image:linear-gradient(white,white),
+    radial-gradient(circle at bottom right,purple,orange);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    margin: 4px 2px;
+}
+
+.readMore{
+    display:inline-block;
+    font-size: 1.7em;
+    padding: .5em,1.5em;
+    text-decoration: none;
+}
+
+.imgContainer{
+    padding-top: 40px;
+}
+
+.imgContainer img{
+    width:fit-content;
+    margin:0 auto;
+    display:block;
+}

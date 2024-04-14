@@ -1,0 +1,23 @@
+h1{
+    padding-top: 40px;
+}
+
+.contact{
+    max-width: 900px;
+    margin: 3em auto;
+    /* background-color: aqua; */
+}
+
+input{
+    width:100%;
+    padding: .7em;
+    margin-bottom: .7em;
+    border: .3em double var(--mainColor);
+    font-size: 1.1rem;
+    outline:none;
+}
+
+label{
+    font-size: 1.1rem;
+    font-weight: bold;
+}

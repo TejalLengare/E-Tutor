@@ -1,0 +1,49 @@
+
+:root{
+    --mainColor:#D7EFE5;
+}
+
+Header{
+    background-color: var(--mainColor);
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto ;
+    max-width: 1200 px;
+}
+
+.container-flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 130px;
+    padding: .5em 0;
+}
+
+.listItem{
+    color:black;
+    margin-left: 2em;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+/* .activeitem {
+    color: rgb(42, 82, 156);
+    border-bottom: 0.1em double black; 
+} */
+
+/* 
+@media  screen and (max-width:768px) {
+html{
+    font-size: 13px;
+}
+.container-flex{
+    flex-direction: column;
+}
+} */
