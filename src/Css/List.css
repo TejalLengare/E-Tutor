@@ -1,6 +1,6 @@
 
 :root{
-    --mainColor:#D7EFE5;
+    --mainColor:#c7eadb;
 }
 
 Header{
@@ -33,6 +33,7 @@ Header{
     font-weight: 300;
     font-style: normal;
 }
+
 /* .activeitem {
     color: rgb(42, 82, 156);
     border-bottom: 0.1em double black; 

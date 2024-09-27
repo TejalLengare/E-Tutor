@@ -8,9 +8,10 @@ const Services = () => {
     <>
     <h1>Our Services</h1>
     <div classname='services'>
-      {Data.map((values)=>{
+      {Data.map((values,index)=>{
         return(
           <Cards
+          key={index}
           title1={values.Stitle}
           imgSource={values.imgsrc}
           desc={values.description}
@@ -24,3 +25,5 @@ const Services = () => {
 }
 
 export default Services;
+
+
