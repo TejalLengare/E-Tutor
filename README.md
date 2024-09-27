@@ -87,7 +87,7 @@ Step 1:
 
 Step 2:
     App Folder Structure
-    ![Project Screenshot](D:\E-Tutor\e-tutor\image.png)
+    ![Alt text](D:\E-Tutor\e-tutor\image.png)
 
 Step 3:
     Run React Application using this command
