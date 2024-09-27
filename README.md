@@ -1,4 +1,4 @@
-Prerequisites:
+**Prerequisites:**
 You need to install Node.js and NPM on your desktop 
 
 You need to have a good editor to work with the project files.You can install Visual Studio Code
@@ -7,24 +7,36 @@ If you wish to check the existing version of Node and NPM on your desktop, run t
 node-v
 npm-v
 
-
-Steps to Build React App with Create React App
+**Steps to Build React App with Create React App**
 Step 1:
     First, you need to open the command line to use create-react-app
     npx create-react-app appname
 
 Step 2:
     App Folder Structure
-    ![Alt text](D:\E-Tutor\e-tutor\image.png)
-    
 ![image](https://github.com/user-attachments/assets/c31d627d-81d4-4b8b-b2aa-65f109f437ee)
 
 Step 3:
     Run React Application using this command
     npm start
 
+**Screenshots Of Application :**
 
+1. Home Page
+![Screenshot 2024-09-27 232237](https://github.com/user-attachments/assets/26f1a50b-0abb-43fe-9452-da7cb43a3d8f)
 
+2. About Page
+![Screenshot 2024-09-27 232359](https://github.com/user-attachments/assets/f510a0d0-fd53-4b11-8d50-114a7edf4d63)
+
+3. Contact Page
+![Screenshot 2024-09-27 232446](https://github.com/user-attachments/assets/e31df3f2-d259-46f8-91a7-e1db1c3d470b)
+
+4. Service Page
+![Screenshot 2024-09-27 232532](https://github.com/user-attachments/assets/2e921189-2842-49b1-bed0-ff781fd58d58)
+
+![Screenshot 2024-09-27 232547](https://github.com/user-attachments/assets/3e7ab8d9-ace4-4fb7-a4bd-424c3674ae75)
+
+![Screenshot 2024-09-27 232604](https://github.com/user-attachments/assets/ddaf7d06-8316-403c-9521-8e9d80524ec7)
 
 
 # Getting Started with Create React App
