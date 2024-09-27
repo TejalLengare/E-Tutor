@@ -87,7 +87,7 @@ Step 1:
 
 Step 2:
     App Folder Structure
-    ![alt text][def]
+    ![alt text](image-1.png)
 
 [def]: image.png
 
