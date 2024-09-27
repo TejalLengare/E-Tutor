@@ -1,3 +1,32 @@
+Prerequisites:
+You need to install Node.js and NPM on your desktop 
+
+You need to have a good editor to work with the project files.You can install Visual Studio Code
+
+If you wish to check the existing version of Node and NPM on your desktop, run the below-given command on your command prompt:
+node-v
+npm-v
+
+
+Steps to Build React App with Create React App
+Step 1:
+    First, you need to open the command line to use create-react-app
+    npx create-react-app appname
+
+Step 2:
+    App Folder Structure
+    ![Alt text](D:\E-Tutor\e-tutor\image.png)
+    
+![image](https://github.com/user-attachments/assets/c31d627d-81d4-4b8b-b2aa-65f109f437ee)
+
+Step 3:
+    Run React Application using this command
+    npm start
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -70,25 +99,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-Prerequisites:
-You need to install Node.js and NPM on your desktop 
-
-You need to have a good editor to work with the project files.You can install Visual Studio Code
-
-If you wish to check the existing version of Node and NPM on your desktop, run the below-given command on your command prompt:
-node-v
-npm-v
-
-
-Steps to Build React App with Create React App
-Step 1:
-    First, you need to open the command line to use create-react-app
-    npx create-react-app appname
-
-Step 2:
-    App Folder Structure
-    ![Alt text](D:\E-Tutor\e-tutor\image.png)
-
-Step 3:
-    Run React Application using this command
-    npm start
