@@ -6,8 +6,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #2563eb;    /* Vibrant blue */
+  --secondary-color: #3b82f6;  /* Light blue */
+  --accent-color: #f59e0b;     /* Warm orange */
+  --text-primary: #1e293b;     /* Dark blue-grey */
+  --text-secondary: #475569;   /* Medium grey */
+  --background: #f8fafc;       /* Light grey-blue */
+  --white: #ffffff;
+}
+
 body {
-  background-color: #e3f2eb; /* Replace with your desired color */
+  background: linear-gradient(135deg, #e6ffe6 0%, #f0fff0 100%);
+  color: var(--text-primary);
 }
 
 .App {
@@ -47,4 +58,48 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.app-container {
+  background: transparent;
+  min-height: 100vh;
+}
+
+.main-content {
+  background-color: var(--white);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 10px;
+  }
+}
+
+.cta-button {
+  background: var(--primary-color);
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+  background: var(--secondary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+}
+
+.feature-card {
+  background: var(--white);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.feature-icon {
+  color: var(--primary-color);
 }
